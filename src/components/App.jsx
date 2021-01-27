@@ -1,14 +1,9 @@
 import React from "react";
-import Heading from "./Heading.jsx";
-import List from "./List.jsx";
 
 function App() {
-  return (
-    <div>
-      <Heading />
-      <List />
-    </div>
-  );
+  var isDone = true;
+  const strikeThrough = { textDecoration: "line-through" };
+  return <p style={isDone ? strikeThrough : null}>Buy Milk</p>;
 }
 
 export default App;
