@@ -1,2 +1,2 @@
-# State-React-Declarative-vs-Imperative
+# React-Components
 Created with CodeSandbox
